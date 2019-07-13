@@ -6,23 +6,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="assets\images\image1.jpg" />
-    <None Remove="assets\images\image2.jpg" />
-    <None Remove="assets\images\image3.jpg" />
-    <None Remove="assets\images\image4.jpg" />
+    <None Remove="assets/images/image1.jpg" />
+    <None Remove="assets/images/image2.jpg" />
+    <None Remove="assets/images/image3.jpg" />
+    <None Remove="assets/images/image4.jpg" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="assets\images\image1.jpg">
+    <Content Include="assets/images/image1.jpg">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
-    <Content Include="assets\images\image2.jpg">
+    <Content Include="assets/images/image2.jpg">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
-    <Content Include="assets\images\image3.jpg">
+    <Content Include="assets/images/image3.jpg">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
-    <Content Include="assets\images\image4.jpg">
+    <Content Include="assets/images/image4.jpg">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
   </ItemGroup>
@@ -34,7 +34,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="assets\Model\" />
+    <Folder Include="assets/Model/" />
   </ItemGroup>
 
 </Project>

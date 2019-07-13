@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "doggy8088.netcore-extension-pack",
+        "ms-vscode.powershell",
+        "adrianwilczynski.add-reference",
+        "randomfractalsinc.vscode-data-preview",
+        "grapecity.gc-excelviewer",
+        "mechatroner.rainbow-csv",
+        "fernandoescolar.vscode-solution-explorer"
+    ]
+}

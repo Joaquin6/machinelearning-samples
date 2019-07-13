@@ -13,10 +13,10 @@
     <PackageReference Include="Microsoft.ML.FastTree" Version="1.0.0-preview" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Common\" />
+    <Folder Include="Common/" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\common\ConsoleHelper.cs" Link="Common\ConsoleHelper.cs" />
+    <Compile Include="../../../common/ConsoleHelper.cs" Link="Common/ConsoleHelper.cs" />
   </ItemGroup>
 
 

@@ -7,10 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\ImageClassification.Train\ImageData\ImageNetData.cs" Link="ImageData\ImageNetData.cs" />
-    <Compile Include="..\ImageClassification.Train\ImageData\ImageNetPrediction.cs" Link="ImageData\ImageNetPrediction.cs" />
-    <Compile Include="..\ImageClassification.Train\Model\ConsoleHelpers.cs" Link="Model\ConsoleHelpers.cs" />
-    <Compile Include="..\ImageClassification.Train\Model\ModelHelpers.cs" Link="Model\ModelHelpers.cs" />
+    <Compile Include="../ImageClassification.Train/ImageData/ImageNetData.cs" Link="ImageData/ImageNetData.cs" />
+    <Compile Include="../ImageClassification.Train/ImageData/ImageNetPrediction.cs" Link="ImageData/ImageNetPrediction.cs" />
+    <Compile Include="../ImageClassification.Train/Model/ConsoleHelpers.cs" Link="Model/ConsoleHelpers.cs" />
+    <Compile Include="../ImageClassification.Train/Model/ModelHelpers.cs" Link="Model/ModelHelpers.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,8 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="assets\outputs\" />
-    <Folder Include="ImageData\" />
+    <Folder Include="assets/outputs/" />
+    <Folder Include="ImageData/" />
   </ItemGroup>
 
 </Project>

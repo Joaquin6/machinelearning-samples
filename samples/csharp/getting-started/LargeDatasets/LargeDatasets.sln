@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LargeDatasets", "LargeDatasets\LargeDatasets.csproj", "{3EF000C4-725B-4FF0-B6C9-60F3D6EB877E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LargeDatasets", "LargeDatasets/LargeDatasets.csproj", "{3EF000C4-725B-4FF0-B6C9-60F3D6EB877E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

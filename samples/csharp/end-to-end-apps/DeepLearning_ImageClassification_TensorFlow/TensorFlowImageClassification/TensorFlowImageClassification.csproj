@@ -18,19 +18,19 @@
 
 
   <ItemGroup>
-    <Folder Include="ImageHelpers\" />
-    <Folder Include="ML\TensorFlowModel\" />
+    <Folder Include="ImageHelpers/" />
+    <Folder Include="ML/TensorFlowModel/" />
   </ItemGroup>
 
 
   <ItemGroup>
-    <None Update="ML\MLNETModel\MLModel.zip">
+    <None Update="ML/MLNETModel/MLModel.zip">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="ML\TensorFlowModel\labels.txt">
+    <None Update="ML/TensorFlowModel/labels.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="ML\TensorFlowModel\model.pb">
+    <None Update="ML/TensorFlowModel/model.pb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

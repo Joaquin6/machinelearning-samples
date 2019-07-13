@@ -1,8 +1,8 @@
 # ML.NET Samples
 
-[ML.NET](https://www.microsoft.com/net/learn/apps/machine-learning-and-ai/ml-dotnet) is a cross-platform open-source machine learning framework that makes machine learning accessible to .NET developers. 
+[ML.NET](https://www.microsoft.com/net/learn/apps/machine-learning-and-ai/ml-dotnet) is a cross-platform open-source machine learning framework that makes machine learning accessible to .NET developers.
 
-In this GitHub repo, we provide samples which will help you get started with ML.NET and how to infuse ML into existing and new .NET apps. 
+In this GitHub repo, we provide samples which will help you get started with ML.NET and how to infuse ML into existing and new .NET apps.
 
 **Note:** Please open issues related to [ML.NET](https://www.microsoft.com/net/learn/apps/machine-learning-and-ai/ml-dotnet) framework in the [Machine Learning repository](https://github.com/dotnet/machinelearning/issues). Please create the issue in this repo only if you face issues with the samples in this repository.
 
@@ -14,7 +14,7 @@ There are two types of samples/apps in the repo:
 
 The official ML.NET samples are divided in multiple categories depending on the scenario and machine learning problem/task, accessible through the following tables:
 
-<table align="middle" width=100%>  
+<table align="middle" width=100%>
   <tr>
     <td align="middle" colspan="3">Binary classification</td>
   </tr>
@@ -22,12 +22,12 @@ The official ML.NET samples are divided in multiple categories depending on the 
     <td align="middle"><img src="images/sentiment-analysis.png" alt="Binary classification chart"><br><br><b>Sentiment analysis <br><a href="samples/csharp/getting-started/BinaryClassification_SentimentAnalysis">C#</a> &nbsp; &nbsp; <a href="samples/fsharp/getting-started/BinaryClassification_SentimentAnalysis">F#</a>&nbsp;&nbsp;&nbsp;<img src="images/app-type-getting-started.png" alt="Getting started icon"></b></td>
     <td align="middle"><img src="images/spam-detection.png" alt="Movie Recommender chart"><br><br><b>Spam Detection<br><a href="samples/csharp/getting-started/BinaryClassification_SpamDetection">C#</a> &nbsp; &nbsp; <a href="samples/fsharp/getting-started/BinaryClassification_SpamDetection">F#</a>&nbsp;&nbsp;&nbsp;<img src="images/app-type-getting-started.png" alt="Getting started icon"></b></td>
     <td align="middle"><img src="images/fraud-detection.png" alt="Movie Recommender chart"><br><br><b>Fraud detection<br><a href="samples/csharp/getting-started/BinaryClassification_CreditCardFraudDetection">C#</a> &nbsp;&nbsp;&nbsp;<a href="samples/fsharp/getting-started/BinaryClassification_CreditCardFraudDetection">F#</a> &nbsp;&nbsp;&nbsp;<img src="images/app-type-getting-started.png" alt="Getting started icon"></b></td>
-  </tr> 
+  </tr>
   <tr>
     <td align="middle"><img src="images/disease-detection.png" alt="disease detection chart"><br><br><b>Heart Disease Prediction <br><a href="samples/csharp/getting-started/BinaryClassification_HeartDiseaseDetection">C#</a>&nbsp;&nbsp;&nbsp;<img src="images/app-type-getting-started.png" alt="Getting started icon"></td>
     <td></td>
     <td></td>
-  </tr> 
+  </tr>
   <tr>
     <td align="middle" colspan="3">Multi-class classification</td>
   </tr>
@@ -68,7 +68,7 @@ The official ML.NET samples are divided in multiple categories depending on the 
       <a href="samples/csharp/end-to-end-apps/AnomalyDetection-Sales">C#</a> &nbsp;&nbsp;&nbsp;<img src="images/app-type-e2e.png" alt="End-to-end app icon"><b></td>
     <td align="middle"><img src="images/anomaly-detection.png" alt="Power Anomaly detection chart"><br><br><b>Power Anomaly Detection<br><a href="samples/csharp/getting-started/AnomalyDetection_PowerMeterReadings">C#</a> &nbsp; &nbsp; <img src="images/app-type-getting-started.png" alt="Getting started icon"><b></td>
      <td></td>
-  </tr> 
+  </tr>
   <tr>
     <td align="middle" colspan="3">Computer Vision</td>
   </tr>
@@ -79,7 +79,7 @@ The official ML.NET samples are divided in multiple categories depending on the 
     <td align="middle"><img src="images/object-detection.png" alt="Object Detection chart"><br><br><b>Object Detection<br>    (ONNX model scoring)<br>
     <a href="samples/csharp/getting-started\DeepLearning_ObjectDetection_Onnx">C#</a> &nbsp; &nbsp;<img src="images/app-type-getting-started.png" alt="Getting started icon">
     <a href="samples/csharp/end-to-end-apps/DeepLearning_ObjectDetection_Onnx">C#</a> &nbsp;&nbsp;&nbsp;<img src="images/app-type-e2e.png" alt="End-to-end app icon"><b></td>
-  </tr> 
+  </tr>
 </table>
 
 <br>
@@ -92,7 +92,7 @@ The official ML.NET samples are divided in multiple categories depending on the 
   </tr>
   <tr>
   <td align="middle"><img src="images/web.png" alt="web image" ><br><b>Scalable Model on WebAPI<br><a href="samples/csharp/end-to-end-apps/ScalableMLModelOnWebAPI-IntegrationPkg">C#</a> &nbsp; &nbsp; <img src="images/app-type-e2e.png" alt="End-to-end app icon"><b></td>
-  
+
   <td align="middle"><img src="images/database.png" alt="Database chart"><br><b>Training model with Database<br><a href="samples/csharp/getting-started/DatabaseIntegration">C#</a> &nbsp; &nbsp; <img src="images/app-type-getting-started.png" alt="Getting started icon"><b></td>
   <td align="middle"><img src="images/smile.png" alt="Database chart"><br><b>Scalable Blazor web app<br><a href="samples/csharp/end-to-end-apps/ScalableSentimentAnalysisBlazorWebApp">C#</a> &nbsp; &nbsp; <img src="images/app-type-e2e.png" alt="End-to-end app icon"><b></td>
 </tr>
@@ -103,7 +103,7 @@ The official ML.NET samples are divided in multiple categories depending on the 
 
 # Automate ML.NET models generation (Preview state)
 
-The previous samples show you how to use the ML.NET API 1.0 (GA since May 2019). 
+The previous samples show you how to use the ML.NET API 1.0 (GA since May 2019).
 
 However, we're also working on simplifying ML.NET usage with additional technologies that automate the creation of the model for you so you don't need to write the code by yourself to train a model, you simply need to provide your datasets. The "best" model and the code for running it will be generated for you.
 
@@ -143,11 +143,13 @@ Those Community Samples are not maintained by Microsoft but by their owners.
 If you have created any cool ML.NET sample, please, add its info into this [REQUEST issue](https://github.com/dotnet/machinelearning-samples/issues/86) and we'll publish its information in the mentioned page, eventually.
 
 ## Translations of Samples:
-- [Chinese Simplified](https://github.com/feiyun0112/machinelearning-samples.zh-cn)
+
+* [Chinese Simplified](https://github.com/feiyun0112/machinelearning-samples.zh-cn)
 
 # Learn more
 
 See [ML.NET Guide](https://docs.microsoft.com/en-us/dotnet/machine-learning/) for detailed information on tutorials, ML basics, etc.
+See [ML.NET Tutorial](https://dotnet.microsoft.com/learn/machinelearning-ai/ml-dotnet-get-started-tutorial/intro)
 
 # API reference
 

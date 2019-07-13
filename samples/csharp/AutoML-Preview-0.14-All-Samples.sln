@@ -10,13 +10,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdvancedTaxiFarePrediction.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MNIST.Solution", "MNIST.Solution", "{6AF99207-D4AD-4CCB-A156-2AFE92299635}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedTaxiFarePrediction", "getting-started\AdvancedExperiment_AutoML\AdvancedTaxiFarePrediction\AdvancedTaxiFarePrediction.csproj", "{2FCC93D1-AC44-4E45-85B4-6A8CD04B6B17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedTaxiFarePrediction", "getting-started/AdvancedExperiment_AutoML/AdvancedTaxiFarePrediction/AdvancedTaxiFarePrediction.csproj", "{2FCC93D1-AC44-4E45-85B4-6A8CD04B6B17}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MNIST", "getting-started\MulticlassClassification_AutoML\MNIST\MNIST.csproj", "{E20E7264-1E2C-41E3-AEE1-4B96717E4C9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MNIST", "getting-started/MulticlassClassification_AutoML/MNIST/MNIST.csproj", "{E20E7264-1E2C-41E3-AEE1-4B96717E4C9F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentAnalysis", "getting-started\BinaryClassification_AutoML\SentimentAnalysis\SentimentAnalysis.csproj", "{95C8A3E0-CBEC-4ADA-8094-77BF1780E1BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentAnalysis", "getting-started/BinaryClassification_AutoML/SentimentAnalysis/SentimentAnalysis.csproj", "{95C8A3E0-CBEC-4ADA-8094-77BF1780E1BD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiFarePrediction", "getting-started\Regression_AutoML\TaxiFarePrediction\TaxiFarePrediction.csproj", "{58F9FDAE-62DB-41FB-8ABD-EDBA04579337}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiFarePrediction", "getting-started/Regression_AutoML/TaxiFarePrediction/TaxiFarePrediction.csproj", "{58F9FDAE-62DB-41FB-8ABD-EDBA04579337}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

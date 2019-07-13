@@ -6,9 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Common\**" />
-    <EmbeddedResource Remove="Common\**" />
-    <None Remove="Common\**" />
+    <Compile Remove="Common/**" />
+    <EmbeddedResource Remove="Common/**" />
+    <None Remove="Common/**" />
   </ItemGroup>
 
   <ItemGroup>
